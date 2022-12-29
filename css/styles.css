@@ -17,6 +17,7 @@ span {
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
+  line-height: 1.17;
 }
 
 ul {
@@ -29,6 +30,7 @@ ul {
   color: #212121;
   text-decoration: none;
   font-family: "Roboto";
+  line-height: 1.17;
 }
 
 .web-navigation:hover {
@@ -50,12 +52,13 @@ body {
 }
 
 .projects-type {
-  background-color: FFFFFF;
+  background-color: #ffffff;
   color: #212121;
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 500;
   border: none;
+  margin-top: 174px;
 }
 
 .projects-type:hover {
@@ -69,7 +72,13 @@ body {
   font-family: "Roboto";
   font-size: 18px;
   font-weight: 700;
-  line-height: 36px;
+  line-height: 2;
+}
+
+figure {
+  border: 1px solid #eeeeee;
+  width: 100%;
+  text-align: eleft;
 }
 
 .project-category {
@@ -78,22 +87,24 @@ body {
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1.87px;
 }
 
 .address {
-  color: #212121;
+  color: #ffffff;
   font-family: "Roboto";
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.71;
 }
 
 .footer-mail {
   font-family: "Roboto";
   font-size: 14px;
   line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: underline;
 }
 
 .footer-phone {
@@ -101,4 +112,12 @@ body {
   font-size: 14px;
   line-height: 24px;
   text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+footer {
+  width: 1600px;
+  height: 252px;
+  background: #2f303a;
+  color: #ffffff;
 }
