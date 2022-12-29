@@ -1,0 +1,39 @@
+header {
+  background-color: #ececec;
+}
+
+span {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 35.96px;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.logo {
+  color: black;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.navigation {
+  font-size: 14px;
+  font-weight: 500;
+  color: #df5353;
+  text-decoration: none;
+}
+
+.contact-links {
+  color: #757575;
+  font-size: 14px;
+  line-height: 16.41px;
+  font-family: "Roboto";
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #e5e5e5;
+}
