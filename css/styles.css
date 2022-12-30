@@ -97,7 +97,7 @@ figcaption {
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.87px;
+  line-height: 1.87;
 }
 
 .web-text {
@@ -150,4 +150,54 @@ footer {
   height: 252px;
   background: #2f303a;
   color: #ffffff;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-tittle {
+  line-height: 1.17;
+  color: #212121;
+}
+
+.employee {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: #212121;
+}
+
+.job-position {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.17;
+  color: #757575;
+}
+
+.what-we-do {
+  line-height: 1.17;
+  color: #212121;
+}
+
+.order {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  width: 200px;
+  height: 50px;
+}
+
+.section-primary {
+  width: 1600px;
+  height: 600px;
+  background: #2f303a;
+  color: #ffffff;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-align: center;
 }
