@@ -46,18 +46,24 @@ ul {
   font-weight: 500;
 }
 
+.contact-links:hover {
+  color: #2196f3;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background: #ffffff;
 }
 
 .projects-type {
-  background-color: #ffffff;
+  background-color: #f5f4fa;
   color: #212121;
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 500;
   border: none;
+  width: 121px;
+  height: 38px;
   margin-top: 174px;
 }
 
@@ -77,10 +83,14 @@ body {
 
 figure {
   border: 1px solid #eeeeee;
-  width: 100%;
-  text-align: eleft;
+  width: 370px;
+  text-align: left;
+  line-height: 2;
 }
 
+figcaption {
+  line-height: 1.88;
+}
 .project-category {
   background-color: #ffffff;
   color: #757575;
@@ -90,6 +100,23 @@ figure {
   line-height: 1.87px;
 }
 
+.web-text {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.studio {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  line-height: 1.17;
+}
+
 .address {
   color: #ffffff;
   font-family: "Roboto";
@@ -97,22 +124,25 @@ figure {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
+  margin-top: 20px;
 }
 
 .footer-mail {
   font-family: "Roboto";
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: underline;
+  margin-top: 9px;
 }
 
 .footer-phone {
   font-family: "Roboto";
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
 }
 
 footer {
