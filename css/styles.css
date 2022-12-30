@@ -29,7 +29,6 @@ ul {
   font-weight: 500;
   color: #212121;
   text-decoration: none;
-  font-family: "Roboto";
   line-height: 1.17;
 }
 
@@ -41,7 +40,6 @@ ul {
   color: #757575;
   font-size: 14px;
   line-height: 16.41px;
-  font-family: "Roboto";
   text-decoration: none;
   font-weight: 500;
 }
@@ -58,7 +56,6 @@ body {
 .projects-type {
   background-color: #f5f4fa;
   color: #212121;
-  font-family: "Roboto";
   font-size: 16px;
   font-weight: 500;
   border: none;
@@ -75,7 +72,6 @@ body {
 .project-name {
   background-color: #ffffff;
   color: #212121;
-  font-family: "Roboto";
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
@@ -94,7 +90,6 @@ figcaption {
 .project-category {
   background-color: #ffffff;
   color: #757575;
-  font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
   line-height: 1.87;
@@ -119,30 +114,24 @@ figcaption {
 
 .address {
   color: #ffffff;
-  font-family: "Roboto";
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
-  margin-top: 20px;
 }
 
 .footer-mail {
-  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: underline;
-  margin-top: 9px;
 }
 
 .footer-phone {
-  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-  margin-top: 9px;
 }
 
 footer {
@@ -183,7 +172,6 @@ footer {
 .order {
   background-color: #2196f3;
   color: #ffffff;
-  font-family: "Roboto";
   font-size: 16px;
   font-weight: 700;
   border: none;
@@ -200,4 +188,11 @@ footer {
   font-weight: 900;
   line-height: 1.36;
   text-align: center;
+}
+
+.text-studio {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  color: #757575;
 }
