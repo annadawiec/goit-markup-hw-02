@@ -1,19 +1,22 @@
+:root {
+  --main-background: #ffffff;
+  --main-color: #212121;
+  --footer-background: #2f303a;
+  --main-blue: #2196f3;
+  --contact-color: #757575;
+  --team-background: #f5f4fa;
+  --logo-color: #000000;
+  --footer-mail: rgba(255, 255, 255, 0.6);
+  --border-color: #eeeeee;
+}
+
 .header-style {
-  background-color: #ffffff;
+  background-color: var(--main-background);
   border: 1px;
 }
 
-span {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 35.96px;
-  color: #2196f3;
-  text-decoration: none;
-}
-
 .logo {
-  color: black;
+  color: var(--logo-color);
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
@@ -27,17 +30,16 @@ span {
 .web-navigation {
   font-size: 14px;
   font-weight: 500;
-  color: #212121;
   text-decoration: none;
   line-height: 1.17;
 }
 
 .web-navigation:hover {
-  color: #2196f3;
+  color: var(--main-blue);
 }
 
 .contact-links {
-  color: #757575;
+  color: var(--contact-color);
   font-size: 14px;
   line-height: 16.41px;
   text-decoration: none;
@@ -45,17 +47,17 @@ span {
 }
 
 .contact-links:hover {
-  color: #2196f3;
+  color: var(--main-blue);
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  background: #ffffff;
+  background: var(--main-background);
+  color: var(--main-color);
 }
 
 .projects-type {
-  background-color: #f5f4fa;
-  color: #212121;
+  background-color: var(--team-background);
   font-size: 16px;
   font-weight: 500;
   border: none;
@@ -65,19 +67,19 @@ body {
 }
 
 .projects-type:hover {
-  background-color: #2196f3;
-  color: #f5f4fa;
+  background-color: var(--main-blue);
+  color: var(--team-background);
+  cursor: pointer;
 }
 
 .project-name {
-  color: #212121;
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
 }
 
 .img-frame {
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--border-color);
   width: 370px;
   text-align: left;
   line-height: 2;
@@ -87,7 +89,7 @@ body {
   line-height: 1.88;
 }
 .project-category {
-  color: #757575;
+  color: var(--contact-color);
   font-size: 16px;
   line-height: 1.87;
 }
@@ -97,16 +99,15 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
-  color: #2196f3;
+  color: var(--main-blue);
   text-decoration: none;
 }
 
 .studio {
-  font-weight: 700;
   font-size: 26px;
   text-decoration: none;
   line-height: 1.17;
-  color: #ffffff;
+  color: var(--main-background);
 }
 
 .address {
@@ -118,7 +119,7 @@ body {
 .footer-mail {
   font-size: 14px;
   line-height: 1.71;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-mail);
   text-decoration: underline;
 }
 
@@ -126,70 +127,72 @@ body {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-mail);
+}
+
+.footer-phone:hover {
+  background-color: var(--main-blue);
 }
 
 .footer-mail:hover {
-  color: #2196f3;
+  background-color: var(--main-blue);
 }
 
 .footer-style {
   width: 1600px;
   height: 252px;
-  background: #2f303a;
-  color: #ffffff;
+  background: var(--footer-background);
+  color: var(--main-background);
 }
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--team-background);
 }
 
 .team-tittle {
   line-height: 1.17;
-  color: #212121;
 }
 
 .employee {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.17;
-  color: #212121;
 }
 
 .job-position {
   font-size: 16px;
   line-height: 1.17;
-  color: #757575;
+  color: var(--contact-color);
 }
 
 .what-we-do {
   line-height: 1.17;
-  color: #212121;
 }
 
 .order {
-  background-color: #2196f3;
+  background-color: var(--main-blue);
   font-size: 16px;
   font-weight: 700;
   border: none;
   width: 200px;
   height: 50px;
-  color: #ffffff;
+  color: var(--main-background);
+  cursor: pointer;
 }
 
 .section-primary {
   width: 1600px;
   height: 600px;
-  background: #2f303a;
+  background: var(--footer-background);
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   text-align: center;
-  color: #ffffff;
+  color: var(--main-background);
 }
 
 .text-studio {
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
+  color: var(--contact-color);
 }
