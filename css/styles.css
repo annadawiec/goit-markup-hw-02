@@ -131,11 +131,19 @@ body {
 }
 
 .footer-phone:hover {
-  background-color: var(--main-blue);
+  color: var(--main-background);
+}
+
+.footer-phone:focus {
+  color: var(--main-background);
 }
 
 .footer-mail:hover {
-  background-color: var(--main-blue);
+  color: var(--main-background);
+}
+
+.footer-mail:focus {
+  color: var(--main-background);
 }
 
 .footer-style {
@@ -184,7 +192,6 @@ body {
   width: 1600px;
   height: 600px;
   background: var(--footer-background);
-  font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   text-align: center;
@@ -195,4 +202,8 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--contact-color);
+}
+
+.tittle {
+  font-size: 44px;
 }
